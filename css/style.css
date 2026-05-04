@@ -1,0 +1,127 @@
+body {
+    margin: auto;
+    width: 100%;
+}
+
+header {
+    background-image: url(../pictures/african-leopard-female-pose-beautiful-evening-light.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 8vh;
+    color: white;
+    text-shadow: 0 0 5px black;
+    padding-top: 5rem;  
+}
+
+.kiemelt {
+    color: rgb(248, 90, 11);
+    text-shadow: 0 0 5px black;
+}
+
+.vonal {
+    border-bottom: 1.5rem solid rgb(248, 90, 11);
+    color: rgb(248, 90, 11);
+    width: 8rem;
+    box-shadow: 0 0 5px black;
+}
+
+p {
+    color: white;
+    font: 2vh;
+    max-width: 30rem;
+    width: 100%;
+    text-shadow: 0 0 5px black;
+}
+
+#bm {
+    height: 55px;
+}
+
+.row1 {
+    font-size: 3vh;
+    height: auto;
+    padding-top: 0;
+    background-color: white;
+}
+
+.logo {
+    text-align: left;
+    font-family: fantasy;
+}
+
+h3 {
+    font-size: 4vh;
+}
+
+.row {
+    padding-bottom: 2rem;
+}
+
+.menu {
+    padding: 1rem;
+    min-width: 160px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.reszvet {
+    background-color: black;
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+    width: 30%;
+    font-family: fantasy;
+    padding: 0.3rem;
+}
+
+.reszvet:hover {
+    font-size: 3.2vh;
+    transition: 1s;
+    color: rgb(248, 90, 11);
+    cursor: pointer;
+}
+
+.utolso {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.allat {
+    background-image: url(../pictures/R.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+}
+
+.finanszirozas p {
+    color: black;
+    padding: 1rem;
+    text-shadow: none;
+    padding: 0;
+}
+
+.finanszirozas {
+    background-color: rgba(62, 226, 226, 0.874);
+    text-align: justify;
+}
+
+.menu:hover {
+    font-size: 3.2vh;
+    font-weight: bold;
+    transition: 1s;
+}
